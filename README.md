@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## My Kanban Project
 
-## Getting Started
+# 🧩 Kanban Board App
 
-First, run the development server:
+A modern and minimal Kanban Board built using **Next.js**, **Zustand**, and **ShadCN UI**. Easily manage tasks across multiple stages like `To Do`, `In Progress`, and `Done`.
+
+---
+
+## 🚀 Features
+
+- ✅ Add, Edit, Delete Tasks
+- 🗂️ Category-wise task organization (To Do, In Progress, Done)
+- 🧠 State management with Zustand
+- 🎨 Beautiful UI using ShadCN and Tailwind CSS
+- 📦 Modular and clean code structure
+- 🧾 Modal-based Task Management
+- 🎯 Drag-and-drop functionality (if implemented – mention it)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **UI Library**: [ShadCN UI](https://ui.shadcn.com/)
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+
+---
+
+## 📸 Screenshots
+
+> Add a few screenshots of your app UI here
+
+![Kanban Board Screenshot](./public/screenshot1.png)
+
+---
+
+## 🔧 Installation & Running Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/kanban-board.git
+
+# Go into the project directory
+cd kanban-board
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## folder Stucture
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+KANBAN2/
+├── public/
+│   └── screenshot1.png
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.js
+│   ├── components/
+│   │   └── ui/
+│   │       ├── AddTask.jsx
+│   │       ├── DeleteTask.jsx
+│   │       ├── EditTask.jsx
+│   │       ├── KanbanBoard.jsx
+│   │       └── TaskCard.jsx
+│   ├── lib/
+│   │   └── utils.js
+│   └── store/
+│       └── todostore.js
+├── .gitignore
+├── components.json
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Authors
 
-## Learn More
+- Name - Piyush Gupta
+- GitHub - https://www.github.com/piyushgupta12345
+- LinkedIn - https://www.linkedin.com/in/piyushgupta141
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧠 Tips:
 
-## Deploy on Vercel
+- Markdown syntax use karo like `#`, `##`, `-`, `**bold**`, `[Link](url)` etc.
+- Live deployment ho to zarur daalo (Vercel recommended for Next.js)
+- Folder structure optional hai but recruiters ko pasand aata hai
+- `Screenshots` project ko visually explain karte hain — zaroor add karo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Agar chaho to main aapke liye real content ke sath ek complete `README.md` bhi likh sakta hoon — mujhe sirf:
+- GitHub repo link (agar public hai),
+- Project ka naam
+- Koi live URL
+
+de do ✅
+
+## Learnings
+
+- Zustand usage in a scalable project
+
+- Dynamic modal handling using ShadCN UI
+
+- Managing tasks by category/state
+
+- Structuring a maintainable Next.js app
+
+## ✨ Future Improvements (Optional)
+
+🔁 Drag-and-drop tasks between columns
+
+🔐 Authentication and user-specific boards
+
+💾 Backend integration (Supabase / Firebase)
+
+📱 Better mobile responsiveness
+
+🗓️ Add due dates, tags, and priorities
+
+📊 Analytics dashboard for task stats
+
+
+## Demo
+
+Insert gif or link to demo
+
+## demo
+
+- Vercel : https://kanban-board-ten-tan.vercel.app/
